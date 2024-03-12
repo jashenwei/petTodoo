@@ -1,0 +1,34 @@
+@import "fonts.scss";
+
+%m-regular {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+%m-bold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+$color1: #221831;
+$color2: #465779;
+$color3: #99b3c6;
+$color4: #d3d7e7;
+
+*,
+h1,
+h2,
+h3,
+h4,
+p,
+input {
+  margin: 0;
+  //padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $color4;
+}
