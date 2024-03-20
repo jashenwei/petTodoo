@@ -17,7 +17,7 @@ function addPost() {
     //создается блок в котором будет находиться текст сообщения
     const post = document.createElement("div");
     post.className = "postContainer";
-    document.querySelector(".postsContainer").appendChild(post);
+    document.querySelector(".postsContainer").prepend(post);
 
     //Начинка
     const postBlock = document.createElement("div");
@@ -41,6 +41,8 @@ function addPost() {
           el.remove();
         }
       });
+      const posts = document.querySelector(".postsContainer");
+      posts.append(post);
       console.log();
     });
     postSettings.appendChild(postDone);

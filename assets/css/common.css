@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"), url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format("truetype");
+}
+*,
+h1,
+h2,
+h3,
+h4,
+p,
+input {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #d3d7e7;
+}/*# sourceMappingURL=common.css.map */
